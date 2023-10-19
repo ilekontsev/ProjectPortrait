@@ -1,0 +1,31 @@
+{
+  "name": "ui-kit",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "ui-kit/src",
+  "prefix": "project-portrait",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "ui-kit/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["ui-kit/**/*.ts", "ui-kit/**/*.html"]
+      }
+    }
+  }
+}
