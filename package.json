@@ -10,7 +10,7 @@
     "build": "nx build portrait",
     "test": "npm run affected -t test",
     "test:all": "nx run-many -t test",
-    "lint": "npm run affected -t lint",
+    "lint": "nx affected -t lint",
     "lint:all": "nx run-many -t lint",
     "prepare": "husky install"
   },

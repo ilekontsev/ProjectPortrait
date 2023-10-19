@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@project-portrait/ui-kit": ["ui-kit/src/index.ts"]
+      "@portrait/test": ["test/src/index.ts"],
+      "@portrait/ui-kit": ["libs/ui-kit/src/index.ts"],
+      "@portrait/ui-kit/*": ["libs/ui-kit/src/lib/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
