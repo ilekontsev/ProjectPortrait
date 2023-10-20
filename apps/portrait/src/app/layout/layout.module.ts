@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
-import { LayoutComponent } from './layout.component';
 import { SideBarModule } from '@portrait/ui-kit';
+
+import { LayoutComponent } from './layout.component';
 
 @NgModule({
   imports: [SideBarModule],

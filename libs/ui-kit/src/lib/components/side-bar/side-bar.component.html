@@ -8,11 +8,7 @@
     <div class="portrait-side-bar__container">
       <div class="portrait-side-bar__navigation-panel"></div>
 
-      <button
-        *ngIf="isButton"
-        class="portrait-side-bar__button-expand"
-        (click)="onExpandPanel()"
-      >
+      <button *ngIf="isButton" class="portrait-side-bar__button-expand" (click)="onExpandPanel()">
         {{ isExpandedPanel ? '\<\<' : '>>' }}
       </button>
     </div>

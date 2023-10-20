@@ -1,15 +1,7 @@
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, EventEmitter, HostBinding, Output } from '@angular/core';
-import {
-  DEFAULT_EXPAND_WIDTH_PANEL,
-  DEFAULT_WIDTH_PANEL,
-} from './size-panel.constants';
-import {
-  animate,
-  style,
-  transition,
-  trigger,
-  state,
-} from '@angular/animations';
+
+import { DEFAULT_EXPAND_WIDTH_PANEL, DEFAULT_WIDTH_PANEL } from './size-panel.constants';
 
 @Component({
   selector: 'portrait-side-bar',
