@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { LayoutModule } from './layout/layout.module';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import { PromoModule } from './pages';
 @NgModule({
   imports: [
+    PromoModule,
     BrowserModule,
     LayoutModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),

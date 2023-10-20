@@ -1,0 +1,47 @@
+.portrait-promo {
+  color: white;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.portrait-promo__wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #1a1a1a;
+  position: relative;
+}
+
+.portrait-promo__container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 8px;
+  width: 800px;
+}
+
+.portrait-promo__project-name {
+  font-size: 106px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portrait-promo__developer-name {
+  text-align: end;
+  font-size: 18px;
+}
+
+.portrait-promo__next-button {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  align-self: center;
+}
