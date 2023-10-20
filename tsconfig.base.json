@@ -17,7 +17,6 @@
     "paths": {
       "@portrait/pages": ["apps/portrait/src/app/pages/index"],
       "@portrait/pages/*": ["apps/portrait/src/app/pages/*"],
-
       "@portrait/ui-kit": ["libs/ui-kit/src/index.ts"],
       "@portrait/ui-kit/*": ["libs/ui-kit/src/lib/*"]
     }
